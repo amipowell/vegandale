@@ -1,7 +1,9 @@
+//Vegandale Sucks Chrome extension
+//created by Ami Powell
 {
 	"manifest_version": 2,
 	"name": "Vegandale Sucks",
-	"description": "This extension replaces any mention of the obnoxious 'Vegandale' with what it actually is: Gentrified Parkdale. Created by Ami Powell.",
+	"description": "This extension replaces any mention of the obnoxious 'Vegandale' with what it actually is: Gentrified Parkdale.",
 	"version": "1.0",
 	"icons":
 	{
