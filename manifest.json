@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Vegandale Sucks",
+	"description": "Vegandale is gentrifying Parkdale in the most obnoxious way.",
+	"version": "1.0",
+	"icons":
+	{
+		"16": "v_icon16.png",
+		"48": "v_icon48.png",
+		"128": "v_icon128.png"
+	},
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["vegandale_script.js"],
+			"run_at": "document_end"
+		}
+	]
+} 
